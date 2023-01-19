@@ -8,22 +8,12 @@ sections:
   label: Homepage
 - type: document
   path: exampleSite/content/english/_index.md
-  label: Homepage (en)
-- type: document
-  path: exampleSite/content/french/_index.md
-  label: Homepage (fr)
+  label: Homepage
 - type: heading
   label: Blog Post
 - type: directory
   path: exampleSite/content/english/blog
-  label: Post (en)
-  create: documents
-  match: "**/*"
-  templates:
-  - post
-- type: directory
-  path: exampleSite/content/french/blog
-  label: Post (fr)
+  label: Post
   create: documents
   match: "**/*"
   templates:
@@ -32,14 +22,7 @@ sections:
   label: Author
 - type: directory
   path: exampleSite/content/english/author
-  label: Author (en)
-  create: documents
-  match: "**/*"
-  templates:
-  - author
-- type: directory
-  path: exampleSite/content/french/author
-  label: Author (fr)
+  label: Author
   create: documents
   match: "**/*"
   templates:
@@ -48,14 +31,7 @@ sections:
   label: Project
 - type: directory
   path: exampleSite/content/english/project
-  label: Project (en)
-  create: documents
-  match: "**/*"
-  templates:
-  - project
-- type: directory
-  path: exampleSite/content/french/project
-  label: Project (fr)
+  label: Project
   create: documents
   match: "**/*"
   templates:
@@ -64,26 +40,13 @@ sections:
   label: Other Pages
 - type: directory
   path: exampleSite/content/english
-  label: Other Pages (en)
-  create: documents
-  match: "*"
-  exclude: _index.md
-- type: directory
-  path: exampleSite/content/french
-  label: Other Pages (fr)
+  label: Other Pages
   create: documents
   match: "*"
   exclude: _index.md
 - type: directory
   path: exampleSite/content/english
-  label: All Pages (en)
-  create: all
-  match: "**/*"
-  templates:
-  - new-page
-- type: directory
-  path: exampleSite/content/french
-  label: All Pages (fr)
+  label: All Pages
   create: all
   match: "**/*"
   templates:
@@ -104,10 +67,7 @@ sections:
   label: Languages
 - type: document
   path: exampleSite/config/_default/menus.en.toml
-  label: Menu (en)
-- type: document
-  path: exampleSite/config/_default/menus.fr.toml
-  label: Menu (fr)
+  label: Menu
 - type: directory
   path: exampleSite/i18n
   label: i18n Translations
