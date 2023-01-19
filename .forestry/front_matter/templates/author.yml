@@ -8,7 +8,7 @@ fields:
 - name: image
   type: file
   config:
-    maxSize: 250
+    maxSize: 
   label: image
 - type: text
   name: email
