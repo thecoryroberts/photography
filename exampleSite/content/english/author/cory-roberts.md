@@ -1,5 +1,5 @@
 +++
-bg_image = "images/feature-bg.jpg"
+bg_image = "/images/teams/team-1.jpg"
 draft = true
 email = "email2@example.org"
 title = "Cory Roberts"
